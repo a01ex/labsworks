@@ -1,0 +1,42 @@
+troyc@Zitraks MINGW64 /d/CODE/PI2104_TROICHENKO (master)
+$ git checkout -b Mobile
+Switched to a new branch 'Mobile'
+
+troyc@Zitraks MINGW64 /d/CODE/PI2104_TROICHENKO (Mobile)
+$ echo > readme.md
+
+troyc@Zitraks MINGW64 /d/CODE/PI2104_TROICHENKO (Mobile)
+$ dir
+firstFile.md  readme.md
+
+troyc@Zitraks MINGW64 /d/CODE/PI2104_TROICHENKO (Mobile)
+$ touch readme.md
+
+troyc@Zitraks MINGW64 /d/CODE/PI2104_TROICHENKO (Mobile)
+$ code readme.md
+
+troyc@Zitraks MINGW64 /d/CODE/PI2104_TROICHENKO (Mobile)
+$
+
+troyc@Zitraks MINGW64 /d/CODE/PI2104_TROICHENKO (Mobile)
+$ git commit -m "Был добавлен файл readme.md"
+[Mobile (root-commit) 7ac983b] Был добавлен файл readme.md
+ 2 files changed, 23 insertions(+)
+ create mode 100644 firstFile.md
+ create mode 100644 readme.md
+
+troyc@Zitraks MINGW64 /d/CODE/PI2104_TROICHENKO (Mobile)
+$ git remote add origin https://github.com/a01ex/Mobile.git
+
+troyc@Zitraks MINGW64 /d/CODE/PI2104_TROICHENKO (Mobile)
+$ git push -u origin Mobile
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 783 bytes | 783.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/a01ex/Mobile.git
+ * [new branch]      Mobile -> Mobile
+branch 'Mobile' set up to track 'origin/Mobile'.
+
